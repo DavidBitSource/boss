@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <df name="boss-3.2.2" root=".">
+      <df name="autom4te.cache">
+      </df>
+      <df name="bin">
+      </df>
+      <df name="config">
+      </df>
+      <df name="libraries">
+        <df name="boss_cartreader">
+          <in>boss_cartreader.cpp</in>
+          <in>boss_cartreader.h</in>
+        </df>
+        <df name="boss_conman">
+          <in>boss_concat.cpp</in>
+          <in>boss_concat.h</in>
+          <in>boss_conman.h</in>
+          <in>concat_unit.cpp</in>
+          <in>concat_unit.h</in>
+          <in>conman_unit.cpp</in>
+          <in>conman_unit.h</in>
+        </df>
+        <df name="boss_context">
+          <df name=".libs">
+          </df>
+          <in>boss_context.cpp</in>
+          <in>boss_context.h</in>
+          <in>main.cpp</in>
+        </df>
+        <df name="boss_cscomm">
+          <in>boss_cscomm.cpp</in>
+          <in>boss_cscomm.h</in>
+        </df>
+        <df name="boss_duration">
+          <in>boss_duration.cpp</in>
+          <in>boss_duration.h</in>
+          <in>boss_duration_de.cpp</in>
+          <in>boss_duration_de.h</in>
+        </df>
+        <df name="boss_g2p">
+          <df name=".libs">
+          </df>
+          <in>boss_g2p.cpp</in>
+          <in>boss_g2p.h</in>
+          <in>boss_g2p_de.cpp</in>
+          <in>boss_g2p_de.h</in>
+          <in>main.cpp</in>
+        </df>
+        <df name="boss_intonation">
+          <in>boss_intonation.h</in>
+          <in>boss_intonation_de.cpp</in>
+          <in>boss_intonation_de.h</in>
+          <in>boss_nn.cpp</in>
+          <in>boss_nn.h</in>
+        </df>
+        <df name="boss_mysql">
+          <in>boss_mysql_exceptions.cpp</in>
+          <in>boss_mysql_exceptions.h</in>
+          <in>boss_mysql_handler.cpp</in>
+          <in>boss_mysql_handler.h</in>
+          <in>boss_mysql_result.cpp</in>
+          <in>boss_mysql_result.h</in>
+        </df>
+        <df name="boss_numbers">
+          <df name=".libs">
+          </df>
+          <in>boss_numbers.cpp</in>
+          <in>boss_numbers.h</in>
+          <in>main.cpp</in>
+          <in>nominal.cpp</in>
+          <in>nominal.h</in>
+          <in>ordinal.cpp</in>
+          <in>ordinal.h</in>
+        </df>
+        <df name="boss_transcription">
+          <df name=".libs">
+          </df>
+          <in>boss_morphemes_de.cpp</in>
+          <in>boss_morphemes_de.h</in>
+          <in>boss_morphtree.cpp</in>
+          <in>boss_morphtree.h</in>
+          <in>boss_transcription.cpp</in>
+          <in>boss_transcription.h</in>
+          <in>boss_transcription_de.cpp</in>
+          <in>boss_transcription_de.h</in>
+          <in>boss_transcription_uk.cpp</in>
+          <in>boss_transcription_uk.h</in>
+          <in>main.cpp</in>
+        </df>
+        <df name="boss_unitselection">
+          <in>boss_node.cpp</in>
+          <in>boss_node.h</in>
+          <in>boss_node_de.cpp</in>
+          <in>boss_node_de.h</in>
+          <in>boss_unitselection.cpp</in>
+          <in>boss_unitselection.h</in>
+          <in>cost.h</in>
+          <in>cost_de.cpp</in>
+          <in>cost_de.h</in>
+          <in>factory.cpp</in>
+          <in>factory.h</in>
+          <in>factory_de.cpp</in>
+          <in>factory_de.h</in>
+          <in>unit_level.cpp</in>
+          <in>unit_level.h</in>
+        </df>
+        <df name="boss_utility">
+          <in>boss_config.cpp</in>
+          <in>boss_config.h</in>
+          <in>boss_exceptions.h</in>
+          <in>boss_fsa.cpp</in>
+          <in>boss_fsa.h</in>
+          <in>boss_module.h</in>
+          <in>boss_optitem.h</in>
+          <in>boss_types.cpp</in>
+          <in>boss_types.h</in>
+          <in>boss_utility.cpp</in>
+          <in>boss_utility.h</in>
+          <in>commandline.cpp</in>
+          <in>commandline.h</in>
+          <in>dom_tools.cpp</in>
+          <in>dom_tools.h</in>
+          <in>dom_userdata.cpp</in>
+          <in>dom_userdata.h</in>
+        </df>
+        <df name="phimbl">
+          <in>phimbl.cpp</in>
+          <in>phimbl.h</in>
+        </df>
+        <df name="preproc">
+          <in>PPAbblst.cc</in>
+          <in>PPAbblst.h</in>
+          <in>PPCConte.cc</in>
+          <in>PPCConte.h</in>
+          <in>PPCStrin.cc</in>
+          <in>PPCStrin.h</in>
+          <in>PPCtglst.cc</in>
+          <in>PPCtglst.h</in>
+          <in>PPCtgstr.cc</in>
+          <in>PPCtgstr.h</in>
+          <in>PPFnclst.cc</in>
+          <in>PPFnclst.h</in>
+          <in>PPFuncts.cc</in>
+          <in>PPFuncts.h</in>
+          <in>PPInput.cc</in>
+          <in>PPInput.h</in>
+          <in>PPMain.cc</in>
+          <in>PPRlchls.cc</in>
+          <in>PPRlchls.h</in>
+          <in>PPRulchr.cc</in>
+          <in>PPRulchr.h</in>
+          <in>PPRule.cc</in>
+          <in>PPRule.h</in>
+          <in>PPRullst.cc</in>
+          <in>PPRullst.h</in>
+          <in>PPScannerTest.cc</in>
+          <in>PPdebug.h</in>
+          <in>preproc.cc</in>
+        </df>
+        <df name="tdsp">
+          <in>dsp_convolution.cpp</in>
+          <in>dsp_convolution.h</in>
+          <in>dsp_distances.cpp</in>
+          <in>dsp_distances.h</in>
+          <in>dsp_dtw.cpp</in>
+          <in>dsp_dtw.h</in>
+          <in>dsp_exceptions.cpp</in>
+          <in>dsp_exceptions.h</in>
+          <in>dsp_fft.cpp</in>
+          <in>dsp_fft.h</in>
+          <in>dsp_line.cpp</in>
+          <in>dsp_line.h</in>
+          <in>dsp_matrix.cpp</in>
+          <in>dsp_matrix.h</in>
+          <in>dsp_melcep.cpp</in>
+          <in>dsp_melcep.h</in>
+          <in>dsp_short_time.cpp</in>
+          <in>dsp_short_time.h</in>
+          <in>dsp_vector.cpp</in>
+          <in>dsp_vector.h</in>
+          <in>dsp_weight_window.cpp</in>
+          <in>dsp_weight_window.h</in>
+        </df>
+      </df>
+      <df name="synthesis">
+        <df name="boss_client">
+          <df name=".libs">
+          </df>
+          <in>ClientXMLDocument.cpp</in>
+          <in>ClientXMLDocument.h</in>
+          <in>InputScanner.h</in>
+          <in>PreprocScanner.cpp</in>
+          <in>PreprocScanner.h</in>
+          <in>Token.h</in>
+          <in>abbrev.cpp</in>
+          <in>abbrev.h</in>
+          <in>boss_client.cpp</in>
+          <in>boss_client.h</in>
+          <in>boss_scannertags.h</in>
+        </df>
+        <df name="boss_server">
+          <df name=".libs">
+          </df>
+          <in>boss_synthesis.cpp</in>
+          <in>boss_synthesis.h</in>
+          <in>main.cpp</in>
+        </df>
+      </df>
+      <df name="tests">
+        <df name="moduletest">
+          <in>moduletest.cpp</in>
+          <in>moduletest.h</in>
+        </df>
+      </df>
+      <df name="tools">
+        <df name="addcontext">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+        </df>
+        <df name="addf0">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+        </df>
+        <df name="addhp">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+        </df>
+        <df name="addphrases">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+        </df>
+        <df name="alignflag">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+        </df>
+        <df name="blf2db">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+        </df>
+        <df name="blf2xml">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+          <in>phoneentry.cpp</in>
+          <in>phoneentry.h</in>
+          <in>sentenceentry.cpp</in>
+          <in>sentenceentry.h</in>
+          <in>syllableentry.cpp</in>
+          <in>syllableentry.h</in>
+          <in>wordentry.cpp</in>
+          <in>wordentry.h</in>
+        </df>
+        <df name="blfxml2db">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+        </df>
+        <df name="melbounds">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+        </df>
+        <df name="optbounds">
+          <df name=".libs">
+          </df>
+          <in>main.cpp</in>
+        </df>
+        <df name="traing2p">
+          <df name=".libs">
+          </df>
+          <in>boss_g2pmatrix.cpp</in>
+          <in>boss_g2pmatrix.h</in>
+          <in>main.cpp</in>
+          <in>traing2p.cpp</in>
+          <in>traing2p.h</in>
+        </df>
+      </df>
+      <in>config.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+      <itemPath>Makefile-boss-3.2.2.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile-boss-3.2.2.mk</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>$(MAKE) -f Makefile</buildCommand>
+          <cleanCommand>$(MAKE) -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="config.h" ex="true" tool="3">
+      </item>
+      <folder path="boss-3.2.2/libraries/boss_cartreader">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_cartreader</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_conman">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>libraries/boss_conman</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_context">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_context</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_cscomm">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_cscomm</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_duration">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>libraries/boss_duration</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>/usr/include/mysql</pElem>
+            <pElem>libraries/boss_cartreader</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_g2p">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_g2p</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>libraries/phimbl</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>libraries/tdsp</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_mysql">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_mysql</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_numbers">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>libraries/boss_numbers</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_transcription">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>libraries/boss_transcription</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>libraries/boss_context</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_unitselection">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_unitselection</pElem>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/boss_utility">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_utility</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/phimbl">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/phimbl</pElem>
+            <pElem>libraries/boss_utility</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/preproc">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/preproc</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/libraries/tdsp">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/tdsp</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/synthesis">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/synthesis/boss_client">
+        <ccTool>
+          <incDir>
+            <pElem>synthesis/boss_client</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/synthesis/boss_server">
+        <ccTool>
+          <incDir>
+            <pElem>synthesis/boss_server</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/addcontext">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>tools/addcontext</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>libraries/boss_context</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/addf0">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>tools/addf0</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/addhp">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>tools/addhp</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>libraries/boss_context</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/addphrases">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>tools/addphrases</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/alignflag">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>tools/alignflag</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/blf2db">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>tools/blf2db</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/blf2xml">
+        <ccTool>
+          <incDir>
+            <pElem>tools/blf2xml</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/blfxml2db">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>tools/blfxml2db</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/melbounds">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>tools/melbounds</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/optbounds">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>tools/optbounds</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>libraries/tdsp</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="boss-3.2.2/tools/traing2p">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>tools/traing2p</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="libraries/boss_cartreader/boss_cartreader.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_conman/boss_concat.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_conman/concat_unit.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_conman/conman_unit.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_context/boss_context.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_context/main.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_cscomm/boss_cscomm.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_duration/boss_duration.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_duration/boss_duration_de.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_g2p/boss_g2p.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_g2p/boss_g2p_de.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_g2p/main.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_intonation/boss_intonation.h" ex="true" tool="3">
+      </item>
+      <item path="libraries/boss_intonation/boss_intonation_de.cpp"
+            ex="true"
+            tool="1">
+      </item>
+      <item path="libraries/boss_intonation/boss_intonation_de.h" ex="true" tool="3">
+      </item>
+      <item path="libraries/boss_intonation/boss_nn.cpp" ex="true" tool="1">
+      </item>
+      <item path="libraries/boss_intonation/boss_nn.h" ex="true" tool="3">
+      </item>
+      <item path="libraries/boss_mysql/boss_mysql_exceptions.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_mysql/boss_mysql_handler.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_mysql/boss_mysql_result.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_numbers/boss_numbers.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_numbers/main.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_numbers/nominal.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_numbers/ordinal.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_transcription/boss_morphemes_de.cpp"
+            ex="false"
+            tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_g2p</pElem>
+            <pElem>libraries/phimbl</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_transcription/boss_morphtree.cpp"
+            ex="false"
+            tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_g2p</pElem>
+            <pElem>libraries/phimbl</pElem>
+            <pElem>libraries/tdsp</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_transcription/boss_transcription.cpp"
+            ex="false"
+            tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_transcription/boss_transcription_de.cpp"
+            ex="false"
+            tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_g2p</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>libraries/phimbl</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_transcription/boss_transcription_uk.cpp"
+            ex="false"
+            tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_transcription/main.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_g2p</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>libraries/phimbl</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_unitselection/boss_node.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_unitselection/boss_node_de.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_unitselection/boss_unitselection.cpp"
+            ex="false"
+            tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_unitselection/cost_de.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_unitselection/factory.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_unitselection/factory_de.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/xercesc/dom</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_unitselection/unit_level.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_utility/boss_config.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_utility/boss_fsa.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_utility/boss_types.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_utility/boss_utility.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_utility/commandline.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_utility/dom_tools.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/boss_utility/dom_userdata.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_mysql</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/dom</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>libraries/tdsp</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/phimbl/phimbl.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPAbblst.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPCConte.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPCStrin.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPCtglst.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPCtgstr.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPFnclst.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPFuncts.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPInput.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPMain.cc" ex="true" tool="1">
+      </item>
+      <item path="libraries/preproc/PPRlchls.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPRulchr.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPRule.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPRullst.cc" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/preproc/PPScannerTest.cc" ex="true" tool="1">
+      </item>
+      <item path="libraries/preproc/preproc.cc" ex="true" tool="1">
+      </item>
+      <item path="libraries/tdsp/dsp_convolution.cpp" ex="true" tool="1">
+      </item>
+      <item path="libraries/tdsp/dsp_convolution.h" ex="true" tool="3">
+      </item>
+      <item path="libraries/tdsp/dsp_distances.cpp" ex="false" tool="3">
+      </item>
+      <item path="libraries/tdsp/dsp_dtw.cpp" ex="true" tool="1">
+      </item>
+      <item path="libraries/tdsp/dsp_dtw.h" ex="true" tool="3">
+      </item>
+      <item path="libraries/tdsp/dsp_exceptions.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="libraries/tdsp/dsp_fft.cpp" ex="false" tool="3">
+      </item>
+      <item path="libraries/tdsp/dsp_line.cpp" ex="true" tool="1">
+      </item>
+      <item path="libraries/tdsp/dsp_matrix.cpp" ex="false" tool="3">
+      </item>
+      <item path="libraries/tdsp/dsp_melcep.cpp" ex="false" tool="3">
+      </item>
+      <item path="libraries/tdsp/dsp_short_time.cpp" ex="false" tool="3">
+      </item>
+      <item path="libraries/tdsp/dsp_vector.cpp" ex="false" tool="3">
+      </item>
+      <item path="libraries/tdsp/dsp_weight_window.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="synthesis/boss_client/ClientXMLDocument.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_utility</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="synthesis/boss_client/PreprocScanner.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/preproc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="synthesis/boss_client/abbrev.cpp" ex="true" tool="1">
+      </item>
+      <item path="synthesis/boss_client/abbrev.h" ex="true" tool="3">
+      </item>
+      <item path="synthesis/boss_client/boss_client.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>libraries/boss_cscomm</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="synthesis/boss_client/boss_scannertags.h" ex="true" tool="3">
+      </item>
+      <item path="synthesis/boss_server/boss_synthesis.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="synthesis/boss_server/main.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_cscomm</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="tests/moduletest/moduletest.cpp" ex="true" tool="1">
+      </item>
+      <item path="tests/moduletest/moduletest.h" ex="true" tool="3">
+      </item>
+      <item path="tools/blf2xml/main.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries</pElem>
+            <pElem>libraries/boss_utility</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="tools/blf2xml/phoneentry.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="tools/blf2xml/sentenceentry.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="tools/blf2xml/syllableentry.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="tools/blf2xml/wordentry.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="tools/traing2p/boss_g2pmatrix.cpp" ex="false" tool="1">
+        <ccTool>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="tools/traing2p/main.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_g2p</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>libraries/phimbl</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="tools/traing2p/traing2p.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>libraries/boss_g2p</pElem>
+            <pElem>/usr/include/xercesc/validators/DTD</pElem>
+            <pElem>/usr/include/xercesc/internal</pElem>
+            <pElem>/usr/include/xercesc/util</pElem>
+            <pElem>/usr/include/xercesc/validators/schema</pElem>
+            <pElem>libraries/phimbl</pElem>
+            <pElem>/usr/include/xercesc/framework</pElem>
+            <pElem>/usr/include/xercesc/framework/psvi</pElem>
+            <pElem>/usr/include/xercesc/util/regx</pElem>
+            <pElem>/usr/include/xercesc/validators/datatype</pElem>
+            <pElem>/usr/include/xercesc/sax</pElem>
+            <pElem>/usr/include/xercesc/validators/common</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_CONFIG_H</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

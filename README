@@ -1,0 +1,7 @@
+BOSS - Bonn Open Synthesis System (3)
+
+Directory structure (see README files in the resp. directories for details):
+
+libraries: 	 BOSS libraries and external libraries used.
+synthesis:	 BOSS client and server development trees.
+tools:		 Tools for corpus (inventory) annotation.

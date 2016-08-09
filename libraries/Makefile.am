@@ -1,0 +1,1 @@
+SUBDIRS = tdsp boss_mysql boss_utility boss_cscomm boss_numbers boss_context phimbl boss_g2p boss_transcription boss_cartreader boss_duration boss_unitselection boss_conman preproc

@@ -1,0 +1,134 @@
+# Character-Listen
+Z: 0123456789
+L: abcdefghijklmnopqrstuvwxyzäüöABCDEFGHIJKLMNOPQRSTUVWXYZÄÜÖß
+G: ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ
+K: abcdefghijklmnopqrstuvwxyzäöüß
+N: 0123456789_abcdefghijklmnopqrstuvwxyz.ABCDEFGHIJKLMNOPQRSTUVWXYZ-~
+C: 0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-
+n: htpf
+S: /-+*=
+R: $%&@()
+E: ,:;.!?
+@: @
+:: :
+.: .
+!: !
+,: ,
+0: 0
++: +
+(: (
+): )
+-: -
+/: /
+&: &
+%: %
+$: $
+#
+#
+# REGELN BEGINNEN HIER
+#
+Rules:
+#
+# Telefonnummern
+#
+0Z*/Z* AS phone_number
+0Z* BEFORE ) AFTER ( AS phone_number_prefix
+0Z* AS single_numbers
+ZZZ* BEFORE Z* AS single_numbers
+ZZZ* AFTER Z* AS single_numbers
+ZZZZZ* AS single_numbers
+#
+# Geldbetraege (pre-Euro)
+#
+Z*,ZZ AFTER 'DM,Mark,DMark,D-Mark' AS money_post
+Z*,ZZ BEFORE 'DM,Mark,DMark,D-Mark' AS money_pre
+Z*,- AS money_no_change
+Z* BEFORE ,- AS money_no_change
+,- AFTER Z AS sign
+#
+# Kommazahlen
+#
+Z*,Z* AS real_number
+Z*,Z*E AS real_number_before_point
+#
+# Uhrzeit
+#
+ZZ:ZZ BEFORE 'Uhr' IN 2 WORDS AS time_before_Uhr
+ZZ:ZZ AS time
+[Z*:]Z* AS colon_numbers
+[Z*:]Z*E AS colon_numbers_before_point
+#
+# Datum
+#
+Z*.Z*.ZZZZ AFTER 'Am,am,Dem,dem,Den,den,Zum,zum,Vom,vom,Beim,beim' IN 4 WORDS AS full_date_flex
+Z*.Z*.ZZZZ AS full_date
+Z*.Z*.ZZZZE AFTER 'Am,am,Dem,dem,Den,den,Zum,zum,Vom,vom,Beim,beim' IN 4 WORDS AS full_date_flex_before_point
+Z*.Z*.ZZZZE AS full_date_before_point
+Z*.Z*.ZZ AFTER 'Am,am,Dem,dem,Den,den,Zum,zum,Vom,vom,Beim,beim' IN 4 WORDS AS full_date_flex
+Z*.Z*.ZZ AS full_date
+Z*.Z*.ZZE AFTER 'Am,am,Dem,dem,Den,den,Zum,zum,Vom,vom,Beim,beim' IN 4 WORDS AS full_date_flex_before_point
+Z*.Z*.ZZE AS full_date_before_point
+Z*.Z*. BEFORE K AFTER 'Am,am,Dem,dem,Den,den,Zum,zum,Vom,vom,Beim,beim' IN 4 WORDS AS short_date_flex
+Z*.Z*. BEFORE K AS short_date
+Z*.Z*.E AFTER 'Am,am,Dem,dem,Den,den,Zum,zum,Vom,vom,Beim,beim' IN 4 WORDS AS short_date_flex_before_point
+Z*.Z*.E AS short_date_before_point
+#
+[Z*.]Z* AS version
+#
+# Ordinalzahlen
+#
+Z*. BEFORE K AFTER 'Am,am,Dem,dem,Den,den,Zum,zum,Vom,vom,Beim,beim' IN 1 WORDS AS ordinal_dativ
+Z*. BEFORE K AFTER 'Der,der,die,Die,das,Das,eine,Eine' IN 1 WORDS AS ordinal_fem
+Z*. BEFORE K AFTER 'Ein,ein' IN 1 WORDS AS ordinal_neutr
+Z*. BEFORE K AS ordinal_fem
+Z*. AFTER 'Am,am,Dem,dem,Zum,zum,Vom,vom,Beim,beim' IN 1 WORDS AS ordinal_dativ
+Z*. AFTER 'der,Der,die,Die,das,Das' IN 1 WORDS AS ordinal_fem
+Z*. AFTER 'Ein,ein' IN 1 WORDS AS ordinal_neutr
+Z*. BEFORE G AFTER 'Am,am,Dem,dem,Zum,zum,Vom,vom,Beim,beim' IN 1 WORDS AS ordinal_dativ
+Z*. BEFORE G AFTER 'das,Das' IN 1 WORDS AS ordinal_fem
+Z*. BEFORE G AFTER 'Ein,ein' IN 1 WORDS AS ordinal_neutr
+Z*$$ AS countnumber
+L*. AS street
+#
+# Kardinalzahlen
+#
+Z*E AS numeral_before_point
+Z* AS numeral
+#
+# Internet
+#
+N*@N* AS email
+n*://[N*/]N* AS http_address
+n*://[N*/] AS http_address
+n*://N* AS http_address
+n*://N*/ AS http_address
+[N*/]N* AS http_address
+[LC*.]LC* AS computer_address
+N*ZN* AS email
+ZN* AS email
+N*Z AS email
+#
+# Sonderzeichen
+#
+Z*[SZ*] AS arithmetic
+[SZ*] AS arithmetic
+#
+/ BEFORE Z AS divide
+/ AS sign
+= BEFORE Z AS equals
+= AS sign
+( AS bracket
+) AS bracket
+- BEFORE Z AS minus
+- AS sign
++ BEFORE Z AS plus
++ AS sign
+% AS percent
+& AS ando
+$ AS dollar
+@ AS at
+#
+# potentielle Einheiten
+#
+L* AFTER Z AS unit
+

@@ -1,0 +1,5 @@
+Directory structure:
+
+boss_server:	the BOSS server program. Dynamically calls the configured synthesis modules.
+boss_client:	the BOSS client program. Used for text pre-processing and communication with the server.
+

@@ -1,0 +1,19 @@
+boss_conman:		this class provides retrieval, concatenation and manipulation of
+			the selected units.
+boss_cscomm:		contains the library needed for network communication between
+			client and server.
+boss_duration:		class/library for duration prediction using CART.
+boss_g2p:	        class/library for grapheme-to-phone conversion using decision trees.
+boss_mysql:             class/library for communication with MySQL RDBMS.
+boss_numbers:           class/library for the normalisation/tokenisation of German digits.
+boss_transcription:     class/library for transcription (uses boss_g2p).
+boss_utility:           utility library for BOSS.
+include:                all library directories have to be linked in this folder to ensure proper compilation
+lib:                    the static library files are placed here.
+tdsp:                   a template DSP library.
+
+external libraries:
+
+xml4c:	these libraries implement the DOM used throughout the BOSS system for data
+	transfer and storage.
+mysql:	the class boss_mysql needs these libraries to access the annotation database.

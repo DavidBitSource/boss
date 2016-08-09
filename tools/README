@@ -1,0 +1,19 @@
+Directory structure:
+
+blf2xml:	converts label files in blf format into xml files.
+addcontext:	a tool for adding the phone and syllable contexts to the XML structure of the label file.
+		All context and context class attributes are added here (e.g., CLeft and CRight).
+addphrases:	adds phrasing information to phone and syllable levels. The attributes PInt and PMode are
+		added to all <SYLLABLE> and <PHONEME> tags.
+alignflag:	adds an Align attribute to <PHONEME> and <SYLLABLE> tags, describing whether label files have
+		been aligned manually or automatically. This attribute can also be exploited for pruning,
+		if the Align attribute is used as a prerequisite in the pre-selection phase of the unit selection
+		algorithm.
+optbounds:	shifts all segment boundaries to the nearest zero crossing.
+melbounds:	calculates the mel cepstrum coefficients needed for unit selection. 22 attributes are added to each
+		<WORD>, <SYLLABLE> and <PHONEME> element, 11 for the left boundary of the unit, and 11 for the
+		right boundary	(LM0 ... LM10 and RM0 ... RM10).
+blfxml2db:	imports fully annotated xml label files into the MySQL database.
+traing2p:       used for the training of syllable, stress and transcription trees for grapheme-to-phone conversion (in boss_g2p).
+addf0:          adds F0 and RMS values to the XML structure (attributes: AVGFO, LF0, RF0, RMS).
+
